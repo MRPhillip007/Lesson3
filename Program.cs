@@ -52,8 +52,7 @@
             {
                 for(int i = Math.Min(num1, num2); i <= Math.Max(num1, num2); i++)
                 {
-                    sum += i;
-                    
+                    sum += i;   
                 }
                 return sum;
             }
