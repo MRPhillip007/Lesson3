@@ -10,7 +10,7 @@
             Console.WriteLine("Enter second number: ");
             bool input2 = int.TryParse(Console.ReadLine(), out int number2);
 
-            if (input1 || input2)
+            if (input1 && input2)
             {
                 Console.WriteLine($"\n Your answer is: {Solution(num1: number1, num2: number2)}");
             }
