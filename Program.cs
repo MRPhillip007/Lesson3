@@ -12,7 +12,7 @@
 
             if (input1 && input2)
             {
-                Console.WriteLine($"\n Your answer is: {Solution(num1: number1, num2: number2)}");
+                Console.WriteLine($"\n\t Your answer is: {Solution(num1: number1, num2: number2)}");
             }
             else
             {
