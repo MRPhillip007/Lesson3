@@ -42,7 +42,7 @@
             //Extra:
 
             //Read values of X and Y from the console. If output is invalid - write to console Invalid input and exit the program.
-            int sum = 0;
+            var sum = 0;
             if (num1 == num2)
             {
                 Console.WriteLine("The same numbers ");
