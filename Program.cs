@@ -6,10 +6,10 @@
         {
             Console.WriteLine("Enter first number: ");
             bool input1 = int.TryParse(Console.ReadLine(), out int number1);
-
+            //bad naming
             Console.WriteLine("Enter second number: ");
             bool input2 = int.TryParse(Console.ReadLine(), out int number2);
-
+            //bad naming
             if (input1 && input2)
             {
                 Console.WriteLine($"\n\t Your answer is: {Solution(num1: number1, num2: number2)}");
@@ -59,3 +59,4 @@
         }
     }
 }
+//checked
